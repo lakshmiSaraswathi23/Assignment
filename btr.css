@@ -67,8 +67,8 @@ h1 {
 }
 P {
     text-align: justify;
-    color: crimson;
-    background-color: rgba(128, 128, 128, 0.258);
+    color: rgb(243, 38, 79);
+    background-color: rgba(67, 67, 67, 0.663);
 }
 .btn {
     background: rgb(223, 200, 162);
