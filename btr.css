@@ -1,0 +1,83 @@
+body {
+    background: url("img2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: azure;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+h1 {
+    font-size: 45px;
+    padding: 10px 0;
+}
+marquee {
+    padding-bottom: 30px;
+    color: aqua;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+table {
+    font-size: 18px;
+    color: rgb(193, 255, 255);
+    width: 100%;
+    font-family: Verdana, sans-serif;
+}
+th {
+    color: rgb(162, 255, 255);
+    font-size: 23px;
+    padding: 6px;
+}
+td {
+    padding: 3px;
+}
+td,
+th {
+    border-color: rgb(230, 254, 254);
+}
+.table-box{
+  width: 100%;
+  overflow-x: auto;
+}
+.table-box::-webkit-scrollbar{
+  display: none;
+}
+.container img {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container::after {
+    content: "";
+    width: 350px;
+}
+h1 {
+    text-align: center;
+}
+P {
+    text-align: justify;
+    color: crimson;
+    background-color: rgba(128, 128, 128, 0.258);
+}
+.btn {
+    background: rgb(223, 200, 162);
+    border-radius: 7px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 25px 30px 25px;
+}
+.btn:hover {
+    color: azure;
+    background-color: rgb(0, 136, 255);
+}
